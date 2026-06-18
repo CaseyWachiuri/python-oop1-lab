@@ -10,5 +10,5 @@ class Coffee:
         self.price = price
 
     def tip(self):
-        print("This coffee is great, here's a tip!")
+        print("This coffee is great, here’s a tip!")
         self.price += 1
