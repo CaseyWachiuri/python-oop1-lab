@@ -6,7 +6,7 @@ class Coffee:
         self.price = price
 
     def set_size(self, value):
-        if value in ["Small", "Medium", "Large"]
+        if value in ["Small", "Medium", "Large"]:
             self._size = value
         else:
             print("Size must be Small, Medium or Large")
