@@ -2,14 +2,12 @@
 
 class Coffee:
     def __init__(self, size, price):
-        self.size = size
-        self.price = price
-
-    def set_size(self, value):
-        if value in ["Small", "Medium", "Large"]:
-            self._size = value
+        if size in ["Small", "Medium", "Large"]:
+            self.size = size
         else:
             print("Size must be Small, Medium or Large")
+
+        self.price = price
 
     def tip(self):
         print("This coffee is great, here's a tip!")
