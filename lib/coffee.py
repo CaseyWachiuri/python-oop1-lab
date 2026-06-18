@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
 
 class Coffee:
-    pass
+    def __init__(self, size, price):
+        self.size = size
+        self.price = price
+
+    def set_size(self, value):
+        if value in ["Small", "Medium", "Large"]
+            self._size = value
+        else:
+            print("Size must be Small, Medium or Large")
+
+    def tip(self):
+        print("This coffee is great, here's a tip!")
+        self.price += 1
