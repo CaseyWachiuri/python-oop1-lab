@@ -2,7 +2,7 @@
 
 class Book:
     def __init__(self, title, page_count):
-        if ( page_count.isdigit() ):
+        if isinstance(page_count, int):
             self.page_count = page_count
         else:
             print("page_count must be an integer")
